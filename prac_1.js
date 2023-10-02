@@ -9,4 +9,13 @@ for (i = 0; i < _pokemon.length+1; i++){
     break
   }
 }
-console.log(_pokemon[905])
+console.log(_pokemon[905]);
+
+const newName =  "유안리";
+for (i = 0; i <= _pokemon.length; i++){
+  if (i === _pokemon.length){
+    _pokemon[i] = newName;
+    break
+  }
+}
+console.log(_pokemon[906])
