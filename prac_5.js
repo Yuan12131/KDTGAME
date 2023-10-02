@@ -3,7 +3,17 @@ const _pokemon = [
 ];
 
 let findPokemon = "리자몽"
+// for (i = 0; i < _pokemon.length; i++){
+//   if (_pokemon[i] === findPokemon)
+//   console.log(_pokemon[i])
+// }
+
+let isExist = false;
 for (i = 0; i < _pokemon.length; i++){
-  if (_pokemon[i] === findPokemon)
-  console.log(_pokemon[i])
+  if (_pokemon[i] === findPokemon){
+    isExist = true;
+    // 함수 바깥에서도 작동
+    break
+  }
 }
+console.log(isExist)
