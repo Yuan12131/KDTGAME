@@ -18,4 +18,5 @@ for (i = 0; i < _pokemon.length; i++){
     joinedtring += ','
   }
 }
+// += 더하기 할당 연산자(+=)는 오른쪽의 값을 변수에 더한 결과를 다시 변수에 할당
 console.log(joinedtring)
