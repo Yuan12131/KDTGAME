@@ -12,3 +12,11 @@ for (i = 0; i < _pokemon.length; i++){
   }
 }
 
+let index = -1;
+for (i = 0; i < _pokemon.length; i++){
+  if(_pokemon[i] === a){
+    index = i;
+    break;
+  }
+}
+console.log(index)
