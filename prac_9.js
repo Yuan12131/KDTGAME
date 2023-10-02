@@ -7,5 +7,18 @@ const _digimon = ["아구몬", "엔젤몬", "그레이몬",];
 let newArray = []
 newArray = [_digimon + _pokemon]
 
+for (i = 0; i < _pokemon.length; i++){
+  for (j = newArray.length; j <= newArray.length; j++){
+    newArray[j] = _pokemon[i]
+    break
+  }
+}
+
+for (i = 0; i < _digimon.length; i++){
+  for (j = newArray.length; j <= newArray.length; j++){
+    newArray[j] = _digimon[i]
+    break
+  }
+}
 
 console.log(newArray)
