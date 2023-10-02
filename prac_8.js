@@ -4,7 +4,17 @@ const _pokemon = [
 
 let newArray = [];
 
-for (i = 0; i < 6; i++){
-  newArray[i] = _pokemon[i]
+// for (i = 0; i < 6; i++){
+//   newArray[i] = _pokemon[i]
+// }
+// console.log(newArray)
+
+
+
+for (i = 0; i < 6 && i < _pokemon.length; i++){
+  for (j = newArray.length; j <= newArray.length; j++){
+    newArray[j] = _pokemon[i]
+    break;
+  }
 }
 console.log(newArray)
