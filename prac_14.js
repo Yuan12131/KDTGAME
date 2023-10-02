@@ -12,4 +12,11 @@ for(i = 0; i < _pokemon.length; i++){
     }
   }
 }
-console.log(newArray[1])
+
+let second;
+if(newArray.length >= 2){
+  second = newArray[1]
+} else {
+  second = "원하는 값이 없음"
+}
+console.log(second)
