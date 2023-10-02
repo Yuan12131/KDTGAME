@@ -3,11 +3,22 @@ const _pokemon = [
 ];
 
 let newArray = []
-let count = 0;
+// let count = 0;
+// for (i = 0; i < _pokemon.length; i++){
+//   if (_pokemon[i][0] === "리"){
+//     newArray[count] = _pokemon[i]
+//     count++
+//   }
+// }
+// console.log(newArray)
+
+let wantText = "리"
 for (i = 0; i < _pokemon.length; i++){
-  if (_pokemon[i][0] === "리"){
-    newArray[count] = _pokemon[i]
-    count++
+  if (_pokemon[i][0] === wantText){
+    for (j = newArray.length; j <= newArray.length; j++){
+      newArray[j] = _pokemon[i]
+      break
+    }
   }
 }
 console.log(newArray)
